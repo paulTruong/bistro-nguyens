@@ -7,6 +7,6 @@
 
   <?php endwhile; endif; ?>
 
-  <?php get_template_part('content', 'portfolio'); ?>
+  <?php get_template_part('components/content', 'hero'); ?>
 
 <?php get_footer(); ?>
