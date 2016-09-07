@@ -3,9 +3,13 @@ Theme Name: Bistro Nguyens
 Author: Paul Truong
 Description: Theme built for my lovely sister's restaurant, Bistro Nguyens
 */
-
-@import "normalize";
-
-body {
-
-}
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "base/normalize";
+@import "base/typography";
+@import "partials/hero";
+@import "partials/grid";
+@import "partials/nav";
+@import "partials/header";
+@import "partials/content";
+@import "partials/footer";

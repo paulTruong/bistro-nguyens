@@ -1,0 +1,17 @@
+header {
+  background: $white;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+h1 {
+  margin: 15px 10px;
+  @include font-size(22pt);
+}
+
+@media all and (max-width: 600px) {
+  h1 {
+    text-align:center;
+  }
+}

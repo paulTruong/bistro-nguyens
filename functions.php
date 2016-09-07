@@ -14,8 +14,7 @@ add_action('init', 'register_theme_menus');
 
 function wpt_theme_styles() {
   wp_enqueue_style('main_css', get_template_directory_uri() . '/style.css');
-  wp_enqueue_style('googleFont_css', 'https://fonts.googleapis.com/css?family=Roboto');
-
+  wp_enqueue_style('googleFont_css', 'https://fonts.googleapis.com/css?family=Josefin+Slab|Special+Elite');
 }
 add_action('wp_enqueue_scripts', 'wpt_theme_styles');
 

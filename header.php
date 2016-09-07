@@ -3,12 +3,13 @@
   <head>
     <!--Dynamic Title depending on WP settings-->
     <title><?php wp_title(); ?></title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Tells WP its the end of the head, loads enqueue-->
     <?php wp_head();?>
   </head>
 
   <body>
+    
     <header>
       <h1><a class="" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
       <nav>
@@ -19,9 +20,7 @@
             'theme_location' => 'primary-menu',
             'menu_class' => 'menu' //class of ul element
           );
-
           wp_nav_menu($defaults);
-
         ?>
       </nav>
     </header>

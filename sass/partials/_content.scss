@@ -1,0 +1,25 @@
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 0 15%;
+  @include font-size(18pt) ;
+  line-height: 2.1rem;
+}
+
+img {
+  height: 200px;
+}
+
+article {
+  padding-bottom: 28px;
+}
+
+@media all and (max-width: 800px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
